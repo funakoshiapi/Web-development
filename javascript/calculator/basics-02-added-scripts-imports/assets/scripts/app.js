@@ -31,7 +31,7 @@ function multiply() {
   createAndRunOutput("*", initialResult, enteredNumber);
 }
 
-function devide() {
+function divide() {
   const enteredNumber = getUserInput();
   const initialResult = currentResult;
   currentResult = currentResult / enteredNumber;
@@ -41,4 +41,4 @@ function devide() {
 addBtn.addEventListener("click", add);
 subtractBtn.addEventListener("click", subtract);
 multiplyBtn.addEventListener("click", multiply);
-divideBtn.addEventListener("click", devide);
+divideBtn.addEventListener("click", divide);
