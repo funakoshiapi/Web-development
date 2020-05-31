@@ -9,7 +9,7 @@ This small project uses HTML, CSS and Javascript
 ![](demonstration.gif)
 
 
-# Sunshine CSS
+# Sunny
 
 ![](sun.gif)
 
