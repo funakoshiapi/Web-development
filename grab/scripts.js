@@ -35,5 +35,7 @@ fetch(url)
 
 
     .catch(function (error) {
+        
         // If there is any error you will catch them here
+        console.log(error);
     });
