@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    color: #666;
+    background: #F6F6F6;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #b4e6ad 0%, #a6e6ee 100%);
+    margin: 0 0 2rem 0;
+    font-size: 4.5rem;
+    color: #8a8484b8;
+}
+
+
+li div img {
+
+    width: 55%;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #a6e6ee;
+    background-color: #b4e6ad;
+    border-radius: 50%;
+}
+
+
+li div img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+div:hover img {
+    opacity: .25;
+    transform: scale(.8);
+    transition: opacity 1s, transform 1s;
+}
+
+
+
+#authors {
+
+    text-align: center;
+}
+
+ul {
+
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr 1.1fr 1.1fr;
+    list-style-type: none;
+}
+
+span {
+    display: block;
+    font-size: 2rem;
+    font-weight: 480;
+    margin: 5% 0 40% 0;
+}
